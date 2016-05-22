@@ -1,0 +1,13 @@
+{
+  "name": "webserver-test",
+  "version": "1.0.0",
+  "description": "variables in connection",
+  "main": "express.js",
+  "scripts": {},
+  "author": "Victoria Viniarska",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  }
+}
