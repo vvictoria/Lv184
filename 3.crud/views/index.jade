@@ -1,0 +1,23 @@
+doctype html
+html
+    include head.jade
+    body
+        .outer
+            .container                                  
+                //- FLEX
+                h1 user database
+                table
+                    tr
+                        th User Name
+                        th User Surname
+                        th User Age
+                        th Action
+                    each user in users
+                        tr
+                            td= user.name
+                            td= user.surname
+                            td= user.age
+                            td
+                                button#add Add             
+                                // go out
+                                button#del Delete

@@ -5,7 +5,10 @@ var app = express();
 var config = require('./config/config.js');
 
 app.set('views', './views');
-app.set('view engine', 'jade');
+// app.set('view engine', 'jade');
+
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
 
 app.get('/', function (req, res) {
   res.render('main', { title: 'Main page', message: 'Hello there!'});
