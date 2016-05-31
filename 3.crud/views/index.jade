@@ -5,12 +5,12 @@ html
         .outer
             .container                                  
                 //- FLEX
-                h1 user database
+                h1 zombie database
                 table
                     tr
-                        th User Name
-                        th User Surname
-                        th User Age
+                        th Name
+                        th Surname
+                        th Age
                         th Action
                     each user in users
                         tr
@@ -21,3 +21,4 @@ html
                                 button#add Add             
                                 // go out
                                 button#del Delete
+                button#new Create

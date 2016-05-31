@@ -1,5 +1,7 @@
+node_modules
 /index.html
 /styles.css
 /test.js
-node_modules
+/4.gulp/build
+/grunt
 drafts

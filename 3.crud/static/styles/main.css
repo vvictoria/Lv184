@@ -3,6 +3,7 @@
 }
 .container {
     margin: auto;
+    background-image: original.png;
 }
 * {
     font-family: 'Josefin Sans', sans-serif;
@@ -11,7 +12,7 @@
 }
 h1 {
      text-transform: uppercase;
-     text-shadow: 2px 2px 2px black;
+     text-shadow: 2px 2px 2px red;
      text-align: center;
 }
 table {
@@ -20,15 +21,18 @@ table {
     background-color: grey;
 }
 th {
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 2px 2px 2px red;
     width: 200px;
     padding-top: 3px;
     padding-bottom: 3px;
+    border-bottom: 1px solid black;
 }
 td {
     text-align: center;
 }
 button {
-    height: 10px;
-    display: inline;
+    height: 0;
+}
+#new {
+    margin: 0 auto;
 }
