@@ -1,9 +1,13 @@
+body {
+    background-image: url('original.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .outer {
     display: flex;                                              //FIX
 }
 .container {
     margin: auto;
-    background-image: original.png;
 }
 * {
     font-family: 'Josefin Sans', sans-serif;
@@ -29,10 +33,40 @@ th {
 }
 td {
     text-align: center;
+    height: 50px;
 }
 button {
     height: 0;
 }
 #new {
-    margin: 0 auto;
+    margin: 30px auto;
+}
+#popup {
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 25px;
+    margin-top: 30px;
+    background-color: rgba(111, 111, 111, 0.5);
+    display: none;
+}
+form div {
+    height: 50px;
+}
+form input {
+    width: 300px;
+    display: inline-block;
+    margin-left: 10px;
+    height: 35px;
+    vertical-align: middle;
+}
+form p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+}
+#send {
+    margin-top: 20px;
+    margin-left: 100px;
 }

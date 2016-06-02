@@ -1,17 +1,17 @@
 [
    {
-        name: 'Rodger',
-        surname: 'Rodriges',
-        age: 28
+        "name": "Rodger",
+        "surname": "Rodriges",
+        "age": 28
     },
     {
-        name: 'Melanie',
-        surname: 'Fergison',
-        age: 18
+        "name": "Melanie",
+        "surname": "Fergison",
+        "age": 18
     },
     {
-        name: 'Bob',
-        surname: 'DeAngelo',
-        age: 41
+        "name": "Bob",
+        "surname": "DeAngelo",
+        "age": 41
     }
 ]

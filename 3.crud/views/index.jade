@@ -12,13 +12,27 @@ html
                         th Surname
                         th Age
                         th Action
-                    each user in users
+                    each user, number in users
                         tr
                             td= user.name
                             td= user.surname
                             td= user.age
                             td
-                                button#add Add             
-                                // go out
-                                button#del Delete
+                                form(action="/edit")
+                                    input.edit(type='submit', value='Edit')
+                                form(action="/delete")
+                                    input#del(type='submit', value='Delete')
+                                    input(type='hidden', name='user', value='#{number}')
                 button#new Create
+                div#popup
+                    form#form(action="/create")
+                        div 
+                            p Name:
+                            input#newName(type='text', name='name')
+                        div 
+                            p Surname:
+                            input#newSrnm(type='text', name='srnm')
+                        div 
+                            p Age:
+                            input#newAge(type='text', name='age')
+                        input#send(type='submit', value='Submit')
